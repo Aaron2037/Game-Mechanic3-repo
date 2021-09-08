@@ -4,14 +4,12 @@ using UnityEngine;
 
 public class shrinkandgrow : MonoBehaviour
 {
-    // Start is called before the first frame update
     public Collider2D circleCol;
     void Start()
     {
 
     }
-
-    // Update is called once per frame
+    //when the keys are pressed, the circle will either shrink or grow, pressing space brings it to the normal size
     void Update()
     {
         if (Input.GetKey(KeyCode.DownArrow))
